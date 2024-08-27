@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des/Encriptador</title>
+    <link rel="icon" href="assets/icons/lock.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <header class="logo">
+            <div class="logo-icon">
+                <h1>Des/Encriptador</h1> 
+            </div>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main class="content">
+            <!-- Sección de Entrada -->
+            <section class="input-section">
+                <!--<label for="text-input">Ingrese el texto aquí</label>-->
+                <textarea id="text-input" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="info">
+                    <p id="warning-text" style="display: none; color: red;">⚠️ Solo letras minúsculas, sin acentos y sin caracteres especiales (incluida la ñ) ⚠️</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn-encrypt" disabled>Encriptar</button>
+                    <button class="btn-decrypt" disabled>Desencriptar</button>
+                    <button class="btn-clear">Limpiar</button>
+                </div>
+            </section>
+
+            <!-- Sección de Salida -->
+            <section class="output-section">
+                <img src="assets/images/typing.png" alt="Hombre dibujado escribiendo en una computadora">
+                <h2 id="output-header">Ningún mensaje fue encontrado</h2>
+                <p id="output-text">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="btn-copy" disabled>Copiar</button>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy;2024 Desarrollado por <a href="https://github.com/starman-ai">@starman-ai</a> / <a href="https://www.linkedin.com/in/andreszav/">Andres Zavala</a></p> 
+            <p>Todos los derechos reservados.</p>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
