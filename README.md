@@ -55,3 +55,7 @@ Ejemplo:
 
    ```bash
    git clone https://github.com/starman-ai/encriptadorProyecto.git
+
+2. También puedes visualizar el proyecto directamente como página web en el siguiente enlace:
+
+   [Des/Encriptador](https://starman-ai.github.io/encriptadorProyecto/)
